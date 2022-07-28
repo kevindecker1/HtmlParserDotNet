@@ -38,3 +38,17 @@ var document = HtmlParserDotNet.HtmlParser.LoadFromHtmlString(@"<!DOCTYPE html>
                 </body>
                 </html>");
 ```
+
+Helpful Extension Methods
+
+```
+// Get an element by ID
+var idElement = document.DocumentElement.GetElementById("test1");
+
+// Get a list of elements by class name
+var elements = document.DocumentElement.GetElementsByClassName("c1");
+
+// Get a list of elements by tag name
+var elements = document.DocumentElement.GetElementsByTagName("input");
+
+```
