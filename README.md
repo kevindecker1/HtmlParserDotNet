@@ -41,6 +41,8 @@ var document = HtmlParserDotNet.HtmlParser.LoadFromHtmlString(@"<!DOCTYPE html>
 
 Helpful Extension Methods
 
+The DocumentElement property is typically the root html element. From here and from any element these extensions are available.
+
 ```
 // Get an element by ID
 var idElement = document.DocumentElement.GetElementById("test1");
