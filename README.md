@@ -8,4 +8,6 @@ The purpose of this library is to provide simplicity in parsing HTML. I know the
 
 HtmlParserDotNet provides 3 easy methods to parse HTML, by providing a file, an URL, or html as a string.
 
-
+```
+var document = HtmlParserDotNet.HtmlParser.LoadFromUrl("https://www.w3schools.com/");
+```
