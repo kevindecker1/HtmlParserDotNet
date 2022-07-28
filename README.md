@@ -2,7 +2,11 @@
 
 HtmlParserDotNet is a .NET Framework library for parsing and querying HTML elements. It is lightweight, fast and easy to use!
 
-The purpose of this library is to provide simplicity in parsing HTML. I know there's already a few really good and robust solutions out there (HtmlAgilityPack, AngleSharp to name a couple), but I found that these required more setup to get going. The biggest difference between HtmlParserDotNet and the aforementioned, is that HtmlParserDotNet is strictly readonly. At this time there is not functionality to manipulate the DOM or create elements. HtmlParserDotNet hopes to separate itself in performance and simplicity.
+The purpose of this library is to provide simplicity in parsing HTML. I know there's already a few really good and robust solutions out there (HtmlAgilityPack, AngleSharp to name a couple), but I found that these required more setup to get going, and at times a little slow. The biggest difference between HtmlParserDotNet and the aforementioned, is that HtmlParserDotNet is strictly readonly. At this time there is no functionality to manipulate the DOM or create elements. HtmlParserDotNet hopes to separate itself through performance and simplicity.
+
+# Under the Hood
+
+HtmlParserDotNet is using the built-in .NET System.Xml namespace. As you can guess, the HTML gets loaded into a XmlDocument, which from there, gets parsed into more readable and manageable classes. For any given element, the tag name, inner html, attributes (styles, classes, etc.), and child elements are all accessible. I found that generating more complex Html from URLs would fail loading into an XmlDocument, so the use of the SgmlReader library came into great use. This essentially converts most HTML to valid XML.
 
 # Usage
 
