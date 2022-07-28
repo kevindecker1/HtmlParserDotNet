@@ -57,4 +57,5 @@ var elements = document.DocumentElement.GetElementsByClassName("c1");
 // Get a list of elements by tag name
 var elements = document.DocumentElement.GetElementsByTagName("input");
 
+... and more!
 ```
