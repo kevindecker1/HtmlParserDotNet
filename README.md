@@ -6,7 +6,7 @@ The purpose of this library is to provide simplicity in parsing HTML. I know the
 
 # Usage
 
-HtmlParserDotNet provides 3 easy methods to parse HTML, by providing a file, an URL, or html as a string.
+HtmlParserDotNet provides 3 easy methods to parse HTML, by providing either a file, an URL, or html as a string.
 
 ```
 using HtmlParserDotNet;
