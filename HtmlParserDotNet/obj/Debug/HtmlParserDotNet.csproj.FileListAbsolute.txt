@@ -1,0 +1,8 @@
+C:\Users\kdeck\source\repos\HtmlParserDotNet\HtmlParserDotNet\bin\Debug\HtmlParserDotNet.dll
+C:\Users\kdeck\source\repos\HtmlParserDotNet\HtmlParserDotNet\bin\Debug\HtmlParserDotNet.pdb
+C:\Users\kdeck\source\repos\HtmlParserDotNet\HtmlParserDotNet\bin\Debug\SgmlReaderDll.dll
+C:\Users\kdeck\source\repos\HtmlParserDotNet\HtmlParserDotNet\obj\Debug\HtmlParserDotNet.csproj.AssemblyReference.cache
+C:\Users\kdeck\source\repos\HtmlParserDotNet\HtmlParserDotNet\obj\Debug\HtmlParserDotNet.csproj.CoreCompileInputs.cache
+C:\Users\kdeck\source\repos\HtmlParserDotNet\HtmlParserDotNet\obj\Debug\HtmlParserDotNet.csproj.CopyComplete
+C:\Users\kdeck\source\repos\HtmlParserDotNet\HtmlParserDotNet\obj\Debug\HtmlParserDotNet.dll
+C:\Users\kdeck\source\repos\HtmlParserDotNet\HtmlParserDotNet\obj\Debug\HtmlParserDotNet.pdb

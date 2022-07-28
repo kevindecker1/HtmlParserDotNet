@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "HtmlParserDotNetTests/1.0.0": {
+        "dependencies": {
+          "HtmlParserDotNet": "1.0.0"
+        },
+        "runtime": {
+          "HtmlParserDotNetTests.dll": {}
+        }
+      },
+      "HtmlParserDotNet/1.0.0": {
+        "runtime": {
+          "HtmlParserDotNet.dll": {}
+        }
+      },
+      "SgmlReaderDll/1.8.11.0": {
+        "runtime": {
+          "SgmlReaderDll.dll": {
+            "assemblyVersion": "1.8.11.0",
+            "fileVersion": "1.8.11.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HtmlParserDotNetTests/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HtmlParserDotNet/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SgmlReaderDll/1.8.11.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
