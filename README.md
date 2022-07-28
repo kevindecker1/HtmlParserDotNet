@@ -20,5 +20,21 @@ var document = HtmlParserDotNet.HtmlParser.LoadFromUrl("https://www.w3schools.co
 var document = HtmlParserDotNet.HtmlParser.LoadFromFile("index.html");
 
 // Load from Html string
-var document = HtmlParserDotNet.HtmlParser.LoadFromHtmlString(@"");
+var document = HtmlParserDotNet.HtmlParser.LoadFromHtmlString(@"<!DOCTYPE html>
+                <html lang='en' xmlns='http://www.w3.org/1999/xhtml'>
+                <head>
+                    <meta charset='utf-8' />
+                    <title></title>
+                </head>
+                <body>
+                    <div>
+                        <div id='test1' class='c c1' style='width:auto;background-color:white;'>
+                            <input id='txtI' type='hidden' value='test' />
+                        </div>
+                        <div id='test2' class='c c1'>
+                            <span>Test inner HTML!</span>
+                        </div>
+                    </div>
+                </body>
+                </html>");
 ```
