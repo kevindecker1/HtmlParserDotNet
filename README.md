@@ -6,7 +6,7 @@ The purpose of this library is to provide simplicity in parsing HTML. I know the
 
 # Under the Hood
 
-HtmlParserDotNet is using the built-in .NET System.Xml namespace. As you can guess, the HTML gets loaded into a XmlDocument, which from there, gets parsed into more readable and manageable classes. For any given element, the tag name, inner html, attributes (styles, classes, etc.), and child elements are all accessible. I found that generating more complex Html from URLs would fail loading into an XmlDocument, so the use of the SgmlReader library came into great use. This essentially converts most HTML to valid XML.
+HtmlParserDotNet is using the .NET System.Xml namespace. As you can guess, the HTML gets loaded into a XmlDocument, which from there, gets parsed into more readable and manageable classes. For any given element, the tag name, inner html, attributes (styles, classes, etc.), and child elements are all accessible. I found that generating more complex Html from URLs would fail loading into an XmlDocument, so the use of the SgmlReader library came into great use. This essentially converts most HTML to valid XML.
 
 # Usage
 
